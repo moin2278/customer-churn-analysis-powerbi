@@ -1,46 +1,166 @@
-# customer-churn-analysis-powerbi
+📊 Customer Churn Analysis | Machine Learning + Power BI Dashboard
+🔍 Predicting customer churn & building an interactive BI dashboard
 
-📊 Customer Churn Prediction & Power BI Analytics
+This project analyzes telecom customer behavior to identify why customers leave and predict churn using machine learning.
+It also includes a professional Power BI interactive dashboard to visualize churn KPIs and insights.
 
-This project combines Machine Learning (Python) and Business Intelligence (Power BI) to predict telecom customer churn and visualize insights.
+🚀 Project Features
+1️⃣ Data Engineering
 
-🚀 Project Highlights
-🔹 AI / Machine Learning
+Raw data ingestion from Excel/CSV
 
-Cleaned and processed Telco customer data
+Data cleaning & preprocessing
 
-Built a classification model to predict churn probability
+Handling missing values
 
-Algorithms tested: Logistic Regression, Random Forest, XGBoost
+Feature encoding & transformation
 
-Saved final trained model as churn_model.pkl
+Saving cleaned dataset (clean_telco.csv)
 
-🔹 Business Intelligence (Power BI)
+2️⃣ Exploratory Data Analysis (EDA)
 
-KPI cards for:
+Churn distribution
 
-Churn Rate
+Demographics (gender, senior citizen, dependents)
 
-High-Risk Customers
+Contract patterns
 
-Predicted Churn Rate
+Internet service trends
 
-Average Churn Probability
+Correlation heatmaps
 
-Interactive slicers for:
+Visual insights exported as PNGs
 
-Contract type
+3️⃣ Machine Learning
+
+Trained multiple models to predict churn:
+
+Logistic Regression
+
+Random Forest
+
+XGBoost
+
+Support Vector Classifier
+
+The best model was selected based on accuracy, ROC-AUC, and classification metrics.
+
+✔ Final ML model saved as: churn_model.pkl
+
+4️⃣ Power BI Dashboard
+
+Includes:
+
+KPI Cards (Churn Rate, Predicted Churn Rate, Avg Churn Probability, High-Risk Customers)
+
+Segmented insights by:
 
 Gender
 
+Contract Type
+
 Internet Service
 
-Visualizations:
+Churn Trend over Customer Tenure
 
-Churn by Gender
+AI-powered predictions loaded from Python ML model
 
-Churn by Contract
+Clean, dark-themed layout for professional presentation
 
-Churn by Internet Service
+Dashboard file: dashboard.pbix
 
-Churn Rate by Tenure
+Screenshots included in the repo:
+
+dashboard_overview.png
+
+churn_kpi_cards.png
+
+churn_charts.png
+
+📦 Repository Structure
+├── data/
+│   ├── clean_telco.csv
+│   ├── WA_Telco_Churn.csv
+│   └── telco_for_powerbi.xlsx
+│
+├── notebooks/
+│   ├── 01_data_ingestion.ipynb
+│   ├── 02_exploratory_data_analysis.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_model_evaluation.ipynb
+│
+├── models/
+│   └── churn_model.pkl
+│
+├── dashboard/
+│   ├── dashboard.pbix
+│   ├── dashboard_overview.png
+│   ├── churn_kpi_cards.png
+│   └── churn_charts.png
+│
+├── README.md
+└── requirements.txt (optional)
+
+🧠 AI/ML in This Project
+✔ Predictive Modeling
+
+A trained ML model predicts:
+
+Probability of each customer churning
+
+High-risk customer segments
+
+Insights used inside Power BI
+
+✔ Power BI + AI Integration
+
+The model outputs were exported and merged into Power BI as:
+
+Predicted churn values
+
+Churn probability score
+
+These AI-driven outputs power:
+
+KPI cards
+
+Ranking of high-risk customers
+
+Trend analysis
+
+Contract-based risk segmentation
+
+📈 Dashboard Preview
+Overview	KPI Cards	Charts
+
+	
+	
+🛠 Tech Stack
+Languages: Python, DAX
+Libraries: Pandas, NumPy, Seaborn, Scikit-learn, XGBoost
+BI Tools: Power BI
+Version Control: Git + GitHub
+▶️ How to Run the Project
+Clone the repo
+git clone https://github.com/yourusername/customer-churn-analysis-powerbi.git
+cd customer-churn-analysis-powerbi
+
+Open notebooks
+
+Run each notebook in the notebooks/ folder in order.
+
+Load Power BI Dashboard
+
+Open:
+
+dashboard/dashboard.pbix
+
+📬 Contact
+
+If you'd like help setting this up or want to collaborate:
+
+Moin Hasan
+📧 https://www.linkedin.com/in/moinhhasan/
+
+🔗 GitHub: your link
+💼 LinkedIn: your link
