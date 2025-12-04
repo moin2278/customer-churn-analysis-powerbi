@@ -160,7 +160,4 @@ dashboard/dashboard.pbix
 If you'd like help setting this up or want to collaborate:
 
 Moin Hasan
-📧 https://www.linkedin.com/in/moinhhasan/
-
-🔗 GitHub: your link
-💼 LinkedIn: your link
+💼 LinkedIn:  https://www.linkedin.com/in/moinhhasan/
